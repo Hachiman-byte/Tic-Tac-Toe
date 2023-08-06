@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tic Tac Toe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="player-indicator">
+            <h2 id="ply1">Player 1</h2>
+            <span id="turn"><p id="symbol"></p><p>turn</p></span>
+            <h2 id="ply2">Player 2</h2></div>
+        <div id="main">
+            <div class="scores sc-one"><h2 class="scores-p1">P1</h2><p class="scoreboard" id="p1">0</p></div>
+            <div class="box">
+                <button id="btn1" class="btn"></button>
+                <button id="btn2" class="btn"></button>
+                <button id="btn3" class="btn"></button>
+                <button id="btn4" class="btn"></button>
+                <button id="btn5" class="btn"></button>
+                <button id="btn6" class="btn"></button>
+                <button id="btn7" class="btn"></button>
+                <button id="btn8" class="btn"></button>
+                <button id="btn9" class="btn"></button>
+            </div>
+            <div class="scores sc-two"><h2 class="scores-p2">P2</h2><p class="scoreboard" id="p2">0</p></div>
+        </div>
+        <div id="options"><button onclick="location.reload()">Restart</button><button onclick="tally()">Tally</button><a href="index.html"><button class="backbtn">Back</button></a></div>
+        <div id="overlay0" class="overlay">
+            <div id="windisplay">
+                <p id="wins"></p>
+                <button class="resetbtn" onclick="reset()">OK</button>
+            </div>
+        </div>
+        <div id="overlay1" class="overlay">
+            <div>
+                <div id="windisplay">
+                    <h2>Final Tally</h2>
+                    <p id="wins1"></p>
+                    <button class="resetbtn" onclick="location.reload()">Confirm</button>
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+    
+</html>
