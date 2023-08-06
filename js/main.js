@@ -113,7 +113,6 @@ function checkPattern(){
             }
         }
     }
-    console.log(displayWinner);
     displayp1Points.innerHTML = p1Points;
     displayp2Points.innerHTML = p2Points;
 }
