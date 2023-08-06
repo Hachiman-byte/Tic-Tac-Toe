@@ -43,6 +43,9 @@
     #main .sc-two{
         order: 2;
     }
+    #options a .backbtn{
+        margin-top: 5px;
+    }
 }
 @media only screen and (min-width:960px){
     #main .scores .scoreboard{
